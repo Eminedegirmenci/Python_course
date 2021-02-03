@@ -1,0 +1,19 @@
+# Question 1
+
+list1 = [1,2,3]
+list2 = ["a","b","c"]
+
+# temporary variable and swap the list1 and list2
+temp = list1
+list1 = list2
+list2 = temp
+
+print('The value of list1 after swapping: {}'.format(list1))
+print('The value of list2 after swapping: {}'.format(list2))
+
+
+# Question 2 
+
+n = 29
+for n in range(2, 29, 2):
+ print (n)
