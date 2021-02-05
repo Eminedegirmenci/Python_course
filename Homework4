@@ -1,0 +1,31 @@
+class Animal:
+  def __init__(self, name, breed, hobby):
+    self.name = name
+    self.breed = breed
+    self.hobby = hobby
+
+  def printname(self):
+    print(self.name, self.breed, self.hobby)
+
+class Dog(Animal):
+  def __init__(self, name, breed, hobby):
+    Animal.__init__(self, name, breed, hobby)
+
+x = Dog("Köpüş", "Poodle", "Dance")
+x.printname()
+ 
+class Animal:
+  def __init__(self, name, breed, hobby):
+    self.name = name
+    self.breed = breed
+    self.hobby = hobby
+
+  def printname(self):
+    print(self.name, self.breed, self.hobby)
+
+class Cat(Animal):
+  def __init__(self, name, breed, hobby):
+    Animal.__init__(self, name, breed, hobby)
+
+x = Cat("Pamuk", "Maine Coon", "Slepp")
+x.printname()
