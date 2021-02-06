@@ -1,0 +1,118 @@
+#Manager_1
+
+class Person():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.language = []
+        
+    def showAge(self):
+        print(self.age)
+        
+    def addLanguage(self,new_lang):
+        self.language.append(new_lang)
+    def showInfo(self):
+        print("{} is {} years old".format(self.name,self.age))
+        print("She can speak:")
+        for i in self.language:
+              print(i)
+        
+
+manager_1 = Person("Emine", "21")
+my_dict = {"Emine": {"manager": manager_1}}
+
+Emine = Person ("Emine", 21)
+Emine.addLanguage("English")
+Emine.addLanguage("Turkish")
+Emine.addLanguage("French")
+Emine.addLanguage("German")
+
+Emine.showInfo()
+
+#Manager_2
+
+class Person():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.language = []
+        
+    def showAge(self):
+        print(self.age)
+        
+    def addLanguage(self,new_lang):
+        self.language.append(new_lang)
+    def showInfo(self):
+        print("{} is {} years old".format(self.name,self.age))
+        print("She can speak:")
+        for i in self.language:
+              print(i)
+        
+
+manager_2 = Person("Büşra", "24")
+my_dict = {"Büşra": {"manager": manager_2}}
+
+Büşra = Person ("Büşra", 24)
+Büşra.addLanguage("English")
+Büşra.addLanguage("Turkish")
+Büşra.addLanguage("German")
+
+Büşra.showInfo()
+
+#Employee_1
+class Person():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.language = []
+        
+    def showAge(self):
+        print(self.age)
+        
+    def addLanguage(self,new_lang):
+        self.language.append(new_lang)
+    def showInfo(self):
+        print("{} is {} years old".format(self.name,self.age))
+        print("He can speak:")
+        for i in self.language:
+              print(i)
+        
+
+employee_1 = Person("Ali", "20")
+my_dict = {"Ali": {"employee": employee_1}}
+
+Ali = Person ("Ali", 20)
+Ali.addLanguage("English")
+Ali.addLanguage("Turkish")
+
+
+Ali.showInfo()
+
+#Employee_2
+class Person():
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        self.language = []
+        
+    def showAge(self):
+        print(self.age)
+        
+    def addLanguage(self,new_lang):
+        self.language.append(new_lang)
+    def showInfo(self):
+        print("{} is {} years old".format(self.name,self.age))
+        print("He can speak:")
+        for i in self.language:
+              print(i)
+        
+
+employee_2 = Person("Mert", "22")
+my_dict = {"Mert": {"employee": employee_2}}
+
+Mert = Person ("Mert", 22)
+Mert.addLanguage("English")
+Mert.addLanguage("Turkish")
+
+
+Mert.showInfo()
